@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background-color:lightcyan;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    padding-top: 30px;
+    min-height: 70px;
+
+}
+
+header h1{
+    font-family: sans-serif;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+}
+header a{
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover{
+    background-color: red;
+}
+
+header li{
+    
+    display: inline;
+    padding: 0 20px 0 20px;}
+
+
+   
+header #name{
+    float: left;
+}
+header #name h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+    margin-right: 300px;
+}
+
+
+/*...................section.......................*/
+section{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 50px;
+    display: flex;
+    
+}
+ img{
+     width: 200px;
+    border-radius: 50%;
+    float: left;
+    position:static;
+    
+
+}
+
+img:hover{
+    box-shadow: -1px  19px 40px -12px rgba(0,0,0,75);
+}
+
+.box{
+    display: flex;
+}
+
+button:hover{
+    box-shadow: -1px  19px 40px -12px rgba(0,0,0,75);
+}
+
+
+ #box2{
+    padding-left: 20px;
+    float: right;
+   
+    padding-right: 90px;
+}
+
+#box2 p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times;
+    width: 450px;
+}
+
+#box2 h1{
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#box2 h3{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#box2 button{
+    padding: 41px;
+    width: 130px;
+    border-radius: 50%;
+  
+}
+
+  #res{
+    background-color: red;
+  
+}
+
+#work{
+    background-color: plum;
+   
+}
+
+#skills{
+    background-color: salmon;
+}
+
+/*................................footer..........................................*/
+
+footer{
+    background-color: lightpink;
+   display: flex;
+   display:block;
+   width: 100%;
+    height: 210px;
+}
+
+footer img{
+    width: 60px;
+    padding: 0 30px 0 30px;
+
+}
+
+footer img:hover{
+   
+    background-color: lightpink;
+}
+
+.inner{
+    display: flex;
+      padding-top: 50px;
+      padding-left: 15%;
+     
+   }
+
+   @media screen and (max-width: 400px) {
+    .container {
+      width: 95%;
+    }
+  }
+    
+   
